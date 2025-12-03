@@ -1,0 +1,69 @@
+/* cơ bản */
+body {
+  font-family: "Lato", sans-serif;
+}
+
+/* slideshow */
+.mySlides {
+  display: none;
+}
+
+.slide-img {
+  width: 100%;
+}
+
+.slide-text {
+  /* giữ layout của w3-display-bottommiddle nên không cần quá nhiều style */
+}
+
+/* main content wrapper */
+.main-content {
+  max-width: 2000px;
+  margin-top: 46px;
+}
+
+/* small nav */
+.small-nav {
+  margin-top: 46px;
+}
+
+/* band member images */
+.member-img {
+  width: 65%;
+}
+
+.small-img {
+  width: 50%;
+}
+
+.mid-img {
+  width: 60%;
+}
+
+/* sections */
+.band-section {
+  max-width: 800px;
+}
+
+.contact-section {
+  max-width: 800px;
+}
+
+.contact-left i {
+  width: 30px;
+}
+
+.contact-inputs {
+  margin: 0 -16px 8px -16px;
+}
+
+/* map image */
+.map-img {
+  width: 100%;
+  display: block;
+}
+
+/* modal z-index fix (nếu cần) */
+.w3-modal {
+  z-index: 2000;
+}
